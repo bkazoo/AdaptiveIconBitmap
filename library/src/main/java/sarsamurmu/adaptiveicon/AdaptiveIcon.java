@@ -37,7 +37,7 @@ public class AdaptiveIcon {
         paint.setAntiAlias(true);
         paint.setFilterBitmap(true);
 
-        setScale(0.66);
+        setScale(72d/108d);
         setPath(PATH_CIRCLE);
         setSize(256);
     }
